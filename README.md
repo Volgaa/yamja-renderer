@@ -41,3 +41,6 @@ Get basic usage info: `yamja-renderer --help`
 Execute with debug output:
 
 `yamja-renderer --debug`
+
+Sample usage:
+`docker run --rm --user 1000:1000 --volume $PWD:/opt --workdir /opt yamja-renderer --variables configs --templates templates --output stacks`
